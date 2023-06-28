@@ -1,0 +1,29 @@
+/* Insert any CSS code below here */
+
+body {
+  font-family: Comic Sans MS;
+}
+p {
+  font-family: Harrington;
+  font-size: 75;
+  position: fixed;
+  top: -45;
+  left: 30;
+  color: blueviolet;
+  text-shadow: 2px 2px cadetblue;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.open-book {
+  transform: perspective(1000px) rotateX(180deg) rotateY(180deg) translateZ(0);
+}
+
+button {
+  background-color: blueviolet;
+  position: fixed;
+  bottom: 100;
+  left: 600;
+  font-family: Harrington;
+  width: 50;
+  height: 50;
+  padding: 10px 10px;
+}
